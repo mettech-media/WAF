@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost:3306';
-$user = 'electric_ziyad';
-$pass = 'Q1w2e3r4p0o9$';
-$db_name = 'electric_waq';
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+$db_name = 'waf';
 
 $conn = new MySQLi($host, $user, $pass, $db_name);
 
